@@ -1,6 +1,6 @@
 # --- Install python libraries in terminal - VS Code ---
 # pip install pip 
-# pip install gmsh-sdkpip
+# pip install gmsh-sdk
 
 import sys
 import math
@@ -105,3 +105,4 @@ gmsh.option.setNumber("Mesh.SecondOrderIncomplete", 1)  # Necessary to force the
 # --- Export to msh format ---
 gmsh.write(prefix + ".msh")
 gmsh.finalize()
+
